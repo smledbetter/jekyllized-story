@@ -1,8 +1,8 @@
 # Site settings
 title:       Jekyllized Story
 description: "A simple tale made complicated."
-baseurl:     "/jekyllized-story"
-url:         "http://github.io/smledbetter/"
+baseurl:     ""
+url:         ""
 date_format: "%b %-d, %Y"
 share-image: "/images/share.png"
 admin:      "John Doe"
