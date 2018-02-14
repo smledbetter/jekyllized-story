@@ -1,6 +1,6 @@
 # pages to appear in navivation
 - title: About
-  url: /about
+  url: {{ prepend: site.url }}/about
 
 - title: Blog
-  url: /blog
+  url: {{ prepend: site.url }}/blog
