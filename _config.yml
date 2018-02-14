@@ -1,0 +1,127 @@
+# Site settings
+title:       Jekyllized Story
+description: "A simple tale made complicated."
+base:     ""
+url:         "http://github.io/smledbetter/jekyll-story"
+date_format: "%b %-d, %Y"
+share-image: "/images/share.png"
+admin:      "John Doe"
+admin_email:    "john@jekyll-story.com"
+admin_title: "Master of Pok Pok"
+admin_twitter: "johndoe"
+admin_image: "authors/john.jpg"
+admin_bio: "Williamsburg raw denim vice art party. Pok pok sustainable +1 cray edison bulb, butcher meh master cleanse. Try-hard artisan polaroid next level kitsch adaptogen pabst coloring book 90's beard venmo jean shorts occupy. Vegan selfies seitan tofu, pop-up bushwick succulents. Narwhal enamel pin lumbersexual microdosing hella vape. Microdosing literally banh mi green juice craft beer dreamcatcher butcher. 3 wolf moon gochujang kombucha snackwave hell of chicharrones."
+admin_city: "Oakland"
+admin_State: "CA"
+
+
+# Collections
+
+
+# Google services
+google_verification:
+# Use either direct GA implementation or set up GTM account
+# - using both will skew your data (leave blank to not use at all)
+google_analytics:
+google_tag_manager:
+# Bing services
+bing_verification:
+
+# Optional features
+animated:             true
+show_related_posts:   false
+show_post_footers:    false
+show_social_icons:    true
+ajaxify_contact_form: false
+enable_mathjax: false
+extended_fonts: false
+enable_anchorjs: true
+
+# Facebook Page integration
+# (for instant articles and other stuff)
+fb_page: false
+fb_page_id:
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
+
+# Facebook Comments plugin
+# (leave blank to disable Facebook Comments, otherwise set it to true)
+facebook_comments:
+facebook_appid:
+facebook_comments_number: 10
+
+# Social icons
+github_username: foobar
+facebook_URL:
+bitbucket_username:
+stackoverflow_id:
+twitter_username: foobar
+skype_username:
+steam_nickname:
+google_plus_id:
+linkedin_username:
+angellist_username: foobar
+medium_id: foobar
+bitcoin_:
+paypal_:
+flattr_button:
+
+# Post sharing icons
+show_sharing_icons: false
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
+
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+  share_buttons:
+    text:         'Share this post!'
+    facebook:     'Share on Facebook'
+    twitter:      'Share on Twitter'
+    googleplus:   'Share on Google+'
+    linkedin:     'Share on LinkedIn'
+    digg:         'Share on Digg'
+    tumblr:       'Share on Tumblr'
+    reddit:       'Share on Reddit'
+    stumbleupon:  'Share on StumbleUpon'
+    hackernews:   'Share on Hacker News'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+  index:
+    coming_soon: 'Coming soon...'
+  contact:
+    email:    'Email Address'
+    content:  'What would you like to say?'
+    subject:  'New submission!'
+    submit:   'Say Hello'
+    ajax:
+      sending:  'sending..'
+      sent:     'Message sent!'
+      error:    'Error!'
+  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  og_locale: 'en_US'
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    /blog/:slug
+sass:
+  style: compressed
+gems:
+  - jekyll-sitemap
+# https://github.com/jekyll/jekyll/issues/2938
+exclude: ["Gemfile", "Gemfile.lock", node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/","docker-compose.yml","story_jekyll_theme.gemspec"]

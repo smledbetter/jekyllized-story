@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+	{% include head.html %}
+
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- Header -->
+  {% include header.html %}
+
+  <!-- Menu -->
+  {% include menu.html %}
+
+  {{ content }}
+
+  <!-- footer -->
+{% include footer.html %}
+
+			</div>
+
+  <!-- scripts -->
+ {% include scripts.html %}
+
+</body>
+
+</html>

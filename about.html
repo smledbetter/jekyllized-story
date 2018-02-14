@@ -1,0 +1,31 @@
+---
+layout: default
+title: About
+---
+
+  <!-- One -->
+    <section class="banner style5 halfscreen content-align-left image-position-left">
+      <div class="content">
+        <h2 class="motto">About</h2>
+        <h3>Here's where you meet the people who made this.</h3>
+      </div>
+      <div class="image jekyll-story">
+        <img src="/images/banner2.jpg" alt="" />
+    </div>
+    </section>
+
+    <!-- Admin -->
+    <section class="spotlight style2 orient-{% cycle 'right', 'left' %} content-align-left image-position-center onload-image-fade-right onscroll-palatte-shift">
+      <div class="content">
+        <h2>{{ site.admin }}</h2>
+        <h2 class="display title swoop right">{{ site.admin_title }}</h2>
+        <p>{{ site.admin_bio }}</p>
+        <ul class="icons" style="margin-top:0;">
+          <li><a href="https://twitter.com/{{ site.admin_twitter }}" class="icon style1 major fab fa-twitter"></a></li>
+          <li><a href="mailto:{{ site.admin_email }}" class="icon style1 major fas fa-envelope"></a></li>
+        </ul>
+      </div>
+      <div class="image">
+        <img src="/images/{{ site.admin_image }}" alt="" />
+      </div>
+    </section>

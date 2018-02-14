@@ -1,0 +1,1 @@
+.dawn{position:relative;filter:none}.dawn img{width:100%;z-index:1}.dawn:before{content:'';display:block;height:100%;width:100%;top:0;left:0;position:absolute;pointer-events:none;z-index:2}.dawn:after{content:'';display:block;height:100%;width:100%;top:0;left:0;position:absolute;pointer-events:none;z-index:3}.dawn img{filter:grayscale(1)}.dawn::after{mix-blend-mode:overlay}
