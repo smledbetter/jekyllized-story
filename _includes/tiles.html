@@ -5,7 +5,7 @@
 		<span class="image">
 			<img src="{{ site.url }}{{ site.baseurl }}/images/pic01.jpg" alt="" />
 		</span>
-		<a href="{{ post.url | prepend:site.baseurl | prepend:site.url }}">
+		<a href="{{ site.baseurl }}{{ post.url }}">
 			<h3>{{ post.title }}</h3>
 			<div class="content">
 				<p>{{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</p>
