@@ -5,14 +5,14 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 Jekyllized Story is a Franken-theme created mostly from HTML5 UP's [Story](https://html5up.net/story) with a drawer menu and blog layout from [Phantom](https://html5up.net/phantom), and a custom header menu. Much of the Jekyllization is based on [andrewbanchich's Jekyllized Phantom Theme](https://github.com/andrewbanchich/phantom-jekyll-theme).
 
-#Highlights:
+# Highlights:
 - Extremely modular and tweakable, and as such is entirely
 built on reusable, insanely customizable elements (like "spotlight" and "gallery") that
 can be endlessly duplicated and tweaked into whatever you need to tell your story --
 without, in many cases, touching *any* CSS.
 - An interactive demo homepage.
 
-#Added by Stevo
+# Added by Stevo
 - Docker-Compose development environment.
 - Custom headers.
 - Custom gradient typography, tied to theme colors.
@@ -29,7 +29,7 @@ without, in many cases, touching *any* CSS.
 - [Swiper slideshow](http://idangero.us/swiper/).
 - [CSSgram](https://una.im/CSSgram/) custom image overlays.
 
-#Examples in the wild
+# Examples in the wild
 - [habitry.com](https://habitry.com)
 - [smledbetter.com](https://smledbetter.com)
 
