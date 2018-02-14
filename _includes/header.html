@@ -5,9 +5,9 @@
 <nav id="nav">
 <ul>
   {% for item in site.data.nav %}
-<li><a href="{{ item.url }}">{{ item.title }}</a></li>
+<li><a href="{{ item.path | prepend: site.baseurl }}">{{ item.title }}</a></li>
 {% endfor %}
-<li><a href="{{ base }}/#contact" class="button special smooth-scroll-middle">Contact Us</a></li>
+<li><a href="{{ baseurl }}/#contact" class="button special smooth-scroll-middle">Contact Us</a></li>
 </ul>
 </nav>
 <nav id="nav-small">

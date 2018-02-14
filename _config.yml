@@ -1,8 +1,8 @@
 # Site settings
 title:       Jekyllized Story
 description: "A simple tale made complicated."
-base:     ""
-url:         "http://github.io/smledbetter/jekyll-story"
+baseurl:     "/jekyllized-story"
+url:         "http://github.io/smledbetter/"
 date_format: "%b %-d, %Y"
 share-image: "/images/share.png"
 admin:      "John Doe"
@@ -12,7 +12,7 @@ admin_twitter: "johndoe"
 admin_image: "authors/john.jpg"
 admin_bio: "Williamsburg raw denim vice art party. Pok pok sustainable +1 cray edison bulb, butcher meh master cleanse. Try-hard artisan polaroid next level kitsch adaptogen pabst coloring book 90's beard venmo jean shorts occupy. Vegan selfies seitan tofu, pop-up bushwick succulents. Narwhal enamel pin lumbersexual microdosing hella vape. Microdosing literally banh mi green juice craft beer dreamcatcher butcher. 3 wolf moon gochujang kombucha snackwave hell of chicharrones."
 admin_city: "Oakland"
-admin_State: "CA"
+admin_state: "CA"
 
 
 # Collections
