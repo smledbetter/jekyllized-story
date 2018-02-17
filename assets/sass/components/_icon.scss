@@ -26,6 +26,16 @@
 			}
 		}
 
+		&.style3 {
+			&:before {
+				border-radius: 2.75em;
+				display: inline-block;
+				height: 2.75em;
+				line-height: 2.75em;
+				width: 2.75em;
+			}
+		}
+
 		&.major {
 			display: block;
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
@@ -126,20 +136,25 @@
 		}
 
 		.icon {
-			&.style3 {
-				box-shadow: 0 0 0 _size(border-width) _palette($p, border);
+ 			&.style3 {
 				color: _palette($p, fg-bold);
-				@include vendor('transition','color #{_duration(transition)}');
+				&:before {
+					box-shadow: 0 0 0 _size(border-width) _palette($p, border);
+					@include vendor('transition','color #{_duration(transition)}');
+				}
 				&:after {
 					background: _palette($p, color1);
 				}
-			}
-		}
+ 			}
+ 		}
 
 		a.icon {
 			&.style3 {
 				&:hover {
 					color: _palette(invert,fg-bold);
+					&:before {
+						box-shadow: 0 0 0 _size(border-width) _palette($p, color1);
+					}
 					&:after {
 						@include vendor('transform','scale(1)');
 						opacity: 1;
