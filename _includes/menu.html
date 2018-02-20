@@ -1,7 +1,7 @@
 <nav id="menu">
   <ul>
     {% for item in site.data.nav %}
-  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+  <li><a href="{{ item.path }}">{{ item.title }}</a></li>
   {% endfor %}
     <li><a href="{{ base }}/#contact" class="button smooth-scroll-middle">Contact Us</a></li>
   </ul>
