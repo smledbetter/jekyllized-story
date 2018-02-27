@@ -120,8 +120,9 @@ redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    /blog/:slug
 sass:
+  sass_dir: assets/_sass
   style: compressed
-gems:
+plugins:
   - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
 exclude: ["Gemfile", "Gemfile.lock", node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/","docker-compose.yml","story_jekyll_theme.gemspec"]
